@@ -1,0 +1,43 @@
+*{
+  margin:0px;
+  padding:0px;  
+  font-family: 'Balsamiq Sans', cursive;
+}
+p{
+    margin-top:0px !important; 
+}
+.main-box{
+   position: relative; 
+}
+.box{
+   text-align:center;
+   position: absolute;
+   width:300px;
+   height:360px;
+   left:50%;
+   top:50%;
+   transform:translate(-50%,-50%);
+   -webkit-transform:translate(-50%,-50%);
+   -moz-transform:translate(-50%,-50%);
+   -ms-transform:translate(-50%,-50%);
+   -o-transform:translate(-50%,-50%);
+   font-size:26px;
+   box-shadow:2px 3px  10px black;
+   background-color:#FFFFFF;
+   border-radius:15px;
+   -webkit-border-radius:15px;
+   -moz-border-radius:15px;
+   -ms-border-radius:15px;
+   -o-border-radius:15px;
+}
+
+.weather-box{
+   background-color:#F4F9FF;
+   height:260px; 
+}
+#deg{
+    font-size:30px;
+}
+.temperature-value p{
+  font-size:4rem;
+}
