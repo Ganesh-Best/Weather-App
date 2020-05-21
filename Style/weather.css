@@ -38,3 +38,6 @@ p{
    background-color:#F4F9FF;
    height:260px; 
 }
+.notification{
+  display:none; 
+}

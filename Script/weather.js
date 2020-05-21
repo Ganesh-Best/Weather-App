@@ -18,12 +18,19 @@ const setPosition = position=>{
      
 }
 const showError = (error)=>{
-    notification.innerHTML = "User denied the request for Geolocation." ;
+    notification.style.display = "block";
+
+    if(error.code == 2)
+        notification.innerHTML = "User denied the request for Geolocation." ;
+    else
+        notification.innerHTML = "Please Connect to Internet." ;
+     
 }
 
 const display = (latitude,longitude) =>{
   console.log("latitude",latitude);
   console.log("longitude",longitude);
+  console.log(weather);
 }
 
 if(navigator.geolocation){
