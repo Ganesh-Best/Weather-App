@@ -23,10 +23,10 @@ p{
    left:50%;
    top:40%;
    transform:translate(-50%,-50%);
-   -webkit-transform:translate(-50%,-50%);
-   -moz-transform:translate(-50%,-50%);
-   -ms-transform:translate(-50%,-50%);
-   -o-transform:translate(-50%,-50%);
+   -webkit-transform:;
+   -moz-transform:;
+   -ms-transform:;
+   -o-transform:;
    font-size:26px;
    box-shadow:2px 3px  10px black;
    background-color:#FFFFFF;
