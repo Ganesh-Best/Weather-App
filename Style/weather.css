@@ -4,8 +4,11 @@
   font-family: 'Balsamiq Sans', cursive;
 }
 p{
-    margin-top:0px !important;
-    margin-bottom:0px; 
+    padding-top:10px ;
+    padding-bottom:10px;
+    margin-top:0px;
+    margin-bottom:0px;
+    font-size:34px; 
 }
 .main-box{
    position: relative;
@@ -18,7 +21,7 @@ p{
    width:300px;
    height:360px;
    left:50%;
-   top:50%;
+   top:40%;
    transform:translate(-50%,-50%);
    -webkit-transform:translate(-50%,-50%);
    -moz-transform:translate(-50%,-50%);
@@ -36,8 +39,11 @@ p{
 
 .weather-box{
    background-color:#F4F9FF;
-   height:260px; 
+   height:360px; 
 }
 .notification{
   display:none; 
+}
+.temperature-value{
+   cursor:pointer;
 }

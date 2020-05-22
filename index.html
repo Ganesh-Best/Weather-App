@@ -15,23 +15,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
   </head>
   <body class="bg-dark">
-    <h1>Weather App In Vanilla JS:</h1>
+    
   
-        <div class="main-Box"> 
-            <div class="box">
+        <div class=" container main-Box"> 
+          <h1 class="display-4 text-white text-center">Weather App In JS:</h1>
+          
+            <div class= "box badge-dark">
                 <div class="title badge-dark">Weather</div>
                 <div class="notification badge-danger"></div>
 
-                <div class="weather-box">
-                    <div class="icon badge-dark"> <img src="Icons/unknown.png" alt=""> </div>
+                <div class="weather-box badge-primary">
+                    <div class="icon badge-white "> <img src="Icons/unknown.png" alt=""> </div>
                     <div class="temperature-value badge-primary">
-                        <p>28&deg;<span>C</span></p>
+                        <p>  <span id="tValue">-&deg;</span><span id="tUnit">C</span></p>
                     </div>
                     <div class="temperature-description badge-primary">
-                        <p>Cloudy</p>
+                        <p>-</p>
                     </div>
                     <div class="location badge-primary">
-                        <p>Nagloi,New Delhi</p>
+                        <p>-</p>
                     </div>
                 </div>
             </div> 
