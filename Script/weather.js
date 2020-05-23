@@ -106,7 +106,7 @@ const displayInfo =(weather)=>{
 const getWeather = async(latitude,longitude)=>{
   
   //It is link where we will get weather infomation on basics of latitude and longitude of user location: 
-  let api = `http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${KEY}`;
+  let api = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${KEY}`;
   
   //try & catch blocks:responsible to handling Runtime Error: 
   //try block : if any runtime error thown ,then it catch ny catch block and execute catch block:
